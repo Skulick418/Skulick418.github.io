@@ -1,0 +1,198 @@
+body {
+	background-image:url(../Image_Folder/Metal_Background.jpg);
+
+	
+}
+
+.container {
+	margin-left:auto;
+	margin-right:auto;
+	width:960px;
+
+}
+
+.header {
+	background: linear-gradient(black, grey, white);
+	color: Floralwhite;
+	text-align: center;
+	font-size: 40px;
+	margin: none;
+	text-shadow: 2px 2px 5px black;
+
+
+}
+
+#home_photo img {
+	display: block;
+	margin: auto;
+	max-width:70%;
+	border-radius:30px;
+	padding-bottom: 20px;
+	padding-top: 5px;
+	
+}
+
+#nav ul {
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	overflow:hidden;
+	background:linear-gradient(white, grey, black)
+}
+
+#nav li {
+	float: left;
+	padding: 10px;
+	font-size: 20px;
+}
+
+ #nav a {
+ 	display: inline-block;
+ 	color: Floralwhite;
+ 	margin-left: 100px;
+ 	text-shadow: 2px 2px 5px black;
+
+}
+
+#nav a:hover {
+	color: grey;
+}
+
+#nav a:visited {
+	color:DeepSkyBlue;
+}
+
+.Welcome {
+	font-size:25px;
+	max-width: 30%;
+	text-shadow: 2px 2px 5px black;
+	color:Floralwhite;
+	margin-left:auto;
+	margin-right:auto;
+
+
+
+
+}
+
+#Welcome_Message {
+	color: black;
+	max-width: 100%;
+	background-image:url(../Image_Folder/Paper_Background.jpg);
+	border-radius:20px;
+	font-size:20px;
+	font-family:Lucida Console;
+	padding: 10px;
+
+
+}
+
+#Opening {
+	border: 1px solid black;
+	z-index: 2;
+	padding: 10px;
+	border-radius: 5px;
+	margin-top: 25px;
+}
+
+#Rules
+{
+	padding: 10px;
+	margin-top: 50px;
+	margin-bottom:25px;
+}
+
+#Policy {
+	padding:10px;
+	margin-bottom:25px;
+}
+
+.footer {
+	margin-top: 50px;
+	color:white;
+	border: solid white 1px;
+	padding: 10px;
+	padding-top:15px;
+	max-width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 25%;
+}
+
+.footer a {
+	color:lightblue;
+	padding: 10px;
+
+}
+
+.footer  a:hover {
+	color: blue;
+}
+
+#Welcome_Images{
+	color:white;
+	text-align:center;
+	font-size:20px;
+	padding: 10px 15px 15px 10px;
+
+}
+
+#Welcome_Images a {
+	color: darkgray;
+}
+
+#Welcome_Images a:hover {
+	color:lightblue;
+}
+
+#Image_files {
+	color:white;
+	text-align:center;
+	margin-top: 20px;
+}
+
+#Image_files img {
+	
+	border-radius: 10px;
+	max-width: 80%;
+	box-shadow: 10px 10px 5px darkgray;
+	display:block;
+	margin:auto;
+	padding:10px;
+
+}
+
+#Contact_info {
+	font-family:Verdana;
+	font-size:20px;
+	text-align:center;
+	color:Floralwhite;
+}
+
+#Contact_info a {
+	color:lightblue;
+}
+
+#Contact_info a:hover {
+	color:blue;
+}
+
+@media screen and  (max-width:320px) {
+	.container {
+		max-width:100%;
+	}
+
+}
+@media screen and  (max-width:500px) {
+	.container {
+		max-width:100%;
+	}
+
+}
+
+@media screen and  (max-width:650px) {
+	.container {
+		max-width:100%;
+	}
+
+}
