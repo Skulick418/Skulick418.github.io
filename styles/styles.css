@@ -162,6 +162,21 @@ body {
 
 }
 
+#Contact_info {
+	font-family:Verdana;
+	font-size:20px;
+	text-align:center;
+	color:Floralwhite;
+}
+
+#Contact_info a {
+	color:lightblue;
+}
+
+#Contact_info a:hover {
+	color:blue;
+}
+
 @media screen and  (max-width:320px) {
 	.container {
 		max-width:100%;
